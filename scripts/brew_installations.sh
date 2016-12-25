@@ -48,6 +48,7 @@ if [ "$HOME" = false ] ; then
 fi
 
 brew install Caskroom/cask/pixlr
+brew install Caskroom/cask/rocket
 brew install Caskroom/cask/slack
 brew install Caskroom/cask/spectacle
 brew install Caskroom/cask/spotify

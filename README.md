@@ -27,6 +27,7 @@ Feel free to fork and adjust the script and documentation to your needs.
 * [jq](https://github.com/stedolan/jq)
 * [Node.js](https://nodejs.org/en/)
 * [Pixlr](https://pixlr.com/)
+* [Rocket](http://matthewpalmer.net/rocket/)
 * [ruby-install](https://github.com/postmodern/ruby-install)
 * [Slack](https://slack.com/)
 * [Spectacle](https://www.spectacleapp.com/)
