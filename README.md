@@ -63,6 +63,5 @@ Feel free to fork and adjust the script and documentation to your needs.
   * [MongoDb Compass](https://www.mongodb.com/products/compass)
   * [node@6](https://nodejs.org/dist/latest-v6.x/docs/doc/api/index.html)
   * [postgresql](https://www.postgresql.org/)
-  * [QLStephen](https://whomwah.github.io/qlstephen/)
   * [redis](https://redis.io/)
   * [siege](https://github.com/JoeDog/siege)
