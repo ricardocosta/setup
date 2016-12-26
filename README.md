@@ -30,6 +30,13 @@ Feel free to fork and adjust the script and documentation to your needs.
   * [iTerm2](https://www.iterm2.com/)
   * [jq](https://github.com/stedolan/jq)
   * [Pixlr](https://pixlr.com/)
+  * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
+    * qlcolorcode
+    * qlstephen
+    * qlmarkdown
+    * quicklook-json
+    * quicklook-csv
+    * betterzipql
   * [Rocket](http://matthewpalmer.net/rocket/)
   * [ruby-install](https://github.com/postmodern/ruby-install)
   * [Slack](https://slack.com/)

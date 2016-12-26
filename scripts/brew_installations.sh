@@ -16,6 +16,15 @@ brew install the_silver_searcher
 brew install unrar
 brew install zsh zsh-completions
 
+# Quick Look
+echo "Installing Quick Look plugins..."
+brew install qlcolorcode
+brew install qlstephen
+brew install qlmarkdown
+brew install quicklook-json
+brew install quicklook-csv
+brew install betterzipql
+
 # Dev Tools
 echo "Installing Dev Tools..."
 brew install docker
