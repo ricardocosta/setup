@@ -1,6 +1,7 @@
 # Setup
 
-Script to automatically install applications after a clean install of MacOS. It installs and then uses [Homebrew](http://brew.sh/) for all other installations. It also includes a `home` flag that can be used to conditionally install applications - imagine professional vs personal computers.
+Scripts to automatically install applications after a clean install of MacOS.
+It installs and then uses [Homebrew](http://brew.sh/) for all other installations.
 
 Feel free to fork and adjust the script and documentation to your needs.
 
@@ -13,7 +14,9 @@ Feel free to fork and adjust the script and documentation to your needs.
 `chmod +x ./brew_installations.sh ./brew_home.sh ./brew_work.sh`
 
 `./brew_installations.sh`
+
 `./brew_home.sh`
+
 `./brew_work.sh`
 
 ## Installed Applications
