@@ -1,5 +1,8 @@
 # Visual Studio Code
 
+## Shell
+`⇧⌘P` > `shell command` > `Shell Command: Install 'code' command in PATH`
+
 ## Custom Preferences
 ```
 {

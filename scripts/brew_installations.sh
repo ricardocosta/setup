@@ -3,18 +3,13 @@
 # Homebrew Script for OSX
 # To execute: save and `chmod +x ./brew_installations.sh` then `./brew_installations.sh`
 
-echo "Installing brew..."
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
 # Productivity
 echo "Installing Productivity Tools..."
 brew install Caskroom/cask/alfred
 brew install autojump
-brew install Caskroom/cask/iterm2
 brew install jq
 brew install the_silver_searcher
 brew install unrar
-brew install zsh zsh-completions
 
 # Quick Look
 echo "Installing Quick Look plugins..."
