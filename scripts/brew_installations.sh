@@ -13,16 +13,16 @@ brew install unrar
 
 # Quick Look
 echo "Installing Quick Look plugins..."
-brew install qlcolorcode
-brew install qlstephen
-brew install qlmarkdown
-brew install quicklook-json
-brew install quicklook-csv
-brew install betterzipql
+brew install Caskroom/cask/qlcolorcode
+brew install Caskroom/cask/qlstephen
+brew install Caskroom/cask/qlmarkdown
+brew install Caskroom/cask/quicklook-json
+brew install Caskroom/cask/quicklook-csv
+brew install Caskroom/cask/betterzipql
 
 # Dev Tools
 echo "Installing Dev Tools..."
-brew install docker
+brew install Caskroom/cask/docker
 brew install git
 brew install Caskroom/cask/google-chrome
 brew install httpie
