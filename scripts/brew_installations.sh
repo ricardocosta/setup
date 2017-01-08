@@ -24,6 +24,8 @@ brew install Caskroom/cask/betterzipql
 echo "Installing Dev Tools..."
 brew install Caskroom/cask/docker
 brew install git
+cp ../config/.gitconfig ~/.gitconfig
+cp ../config/.gitignore_global ~/.gitignore_global
 brew install Caskroom/cask/google-chrome
 brew install httpie
 brew install vim
