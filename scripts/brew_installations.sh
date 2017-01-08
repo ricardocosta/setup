@@ -58,7 +58,6 @@ reload-zshconfig
 echo "You still have to manually install the following:"
 echo "* Bear (via MacStore)"
 echo "* LastPass"
-echo "* RubyMine"
 
 echo "Configuration..."
 echo "Do not forget to configure the following:"

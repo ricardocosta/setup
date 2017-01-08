@@ -12,4 +12,5 @@ brew install Caskroom/cask/mongodb-compass
 brew install node@6
 brew install postgresql
 brew install redis
+brew install Caskroom/cask/rubymine
 brew install siege
