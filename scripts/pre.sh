@@ -3,9 +3,6 @@
 # Homebrew Script for OSX
 # To execute: save and `chmod +x ./pre.sh` then `./pre.sh`
 
-"Installing XCode prerequisites"
-xcode-select --install
-
 echo "Installing brew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 

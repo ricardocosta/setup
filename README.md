@@ -5,13 +5,10 @@ It installs and then uses [Homebrew](http://brew.sh/) for all other installation
 
 Feel free to fork and adjust the script and documentation to your needs.
 
-## Prerequisites
-* Run `xcode-select --install`
-
 ## Installing
-`curl --remote-name https://raw.githubusercontent.com/ricardocosta89/setup/master/scripts/brew_installations.sh`
+`xcode-select --install`
 
-`chmod +x ./brew_installations.sh ./brew_home.sh ./brew_work.sh`
+`./pre.sh`
 
 `./brew_installations.sh`
 
