@@ -22,7 +22,7 @@
 ## Extensions
 * Code Runner (`formulahendry.code-runner`)
 * Code Spellchecker (`streetsidesoftware.code-spell-checker`)
-* Copy Relative Path (`alexdima.copy-relative-path`)
+* Relative Path (`jakob101.RelativePath`)
 * Debugger for Chrome (`msjsdiag.debugger-for-chrome`)
 * Docker Support (`PeterJausovec.vscode-docker`)
 * Git History (`donjayamanne.githistory`)
