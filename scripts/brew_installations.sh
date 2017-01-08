@@ -37,7 +37,6 @@ brew install Caskroom/cask/visual-studio-code
 echo "Installing Programming Languages..."
 brew install chruby
 brew install ruby-install
-brew install yarn
 
 # Tools
 echo "Installing Monitoring Tools..."
