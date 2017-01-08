@@ -27,6 +27,10 @@ brew install git
 brew install Caskroom/cask/google-chrome
 brew install httpie
 brew install vim
+mkdir ~/.vim/colors
+cp ../config/solarized.vim ~/.vim/colors/solarized.vim
+cp ../config/.vimrc ~/.vimrc
+
 brew install Caskroom/cask/visual-studio-code
 
 # Programming Languages
@@ -48,6 +52,8 @@ brew install Caskroom/cask/spectacle
 brew install Caskroom/cask/spotify
 brew install Caskroom/cask/spotify-notifications
 brew install Caskroom/cask/vlc
+
+reload-zshconfig
 
 echo "You still have to manually install the following:"
 echo "* Bear (via MacStore)"
