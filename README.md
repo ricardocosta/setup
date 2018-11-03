@@ -1,67 +1,49 @@
 # Setup
 
-Scripts to automatically install applications after a clean install of MacOS.
-It installs and then uses [Homebrew](http://brew.sh/) for all other installations.
+This repository contains a set of scripts and configurations I use after performing a clean install of MacOS in order to have applications up and running faster. It installs and then uses [Homebrew](http://brew.sh/) for all other installations.
 
-Feel free to fork and adjust the script and documentation to your needs.
+Feel free to fork and adjust the scripts and documentation to your needs.
+
+* [Installed Applications](./docs/applications.md)
+* [Git configuration](./docs/git.md)
+* [VS Code](./docs/vscode.md)
+* [Aliases](./docs/aliases.md)
+* [Google Chrome](./docs/chrome.md)
 
 ## Installing
-`xcode-select --install`
 
-`./pre.sh`
+### Pre-Requisites
 
-`./brew_installations.sh`
+Since Homebrew depends on XCode Command Line Tools, it's better to have those dependencies installed manually first. For that, run:
 
-`./brew_home.sh`
+```shell
+xcode-select --install
+```
 
-`./brew_work.sh`
+When it finishes, follow [Homebrew's instructions](http://brew.sh/):
 
-## Installed Applications
-* `brew_installations.sh`
-  * [Alfred](https://www.alfredapp.com/)
-  * [autojump](https://github.com/wting/autojump)
-  * [chruby](https://github.com/postmodern/chruby)
-  * [Docker](https://www.docker.com/)
-  * [Git](https://git-scm.com/)
-  * [Google Chrome](https://www.google.com/chrome/)
-  * [Homebrew](http://brew.sh/)
-  * [htop](https://github.com/hishamhm/htop)
-  * [HTTPie](https://github.com/jkbrzt/httpie/)
-  * [iTerm2](https://www.iterm2.com/)
-  * [jq](https://github.com/stedolan/jq)
-  * [Pixlr](https://pixlr.com/)
-  * [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
-    * qlcolorcode
-    * qlstephen
-    * qlmarkdown
-    * quicklook-json
-    * quicklook-csv
-    * betterzipql
-  * [Rocket](http://matthewpalmer.net/rocket/)
-  * [ruby-install](https://github.com/postmodern/ruby-install)
-  * [Slack](https://slack.com/)
-  * [Spectacle](https://www.spectacleapp.com/)
-  * [Spotify](https://www.spotify.com/)
-  * [Spotify Notifications](https://spotify-notifications.citruspi.io/)
-  * [The Silver Searcher](https://github.com/ggreer/the_silver_searcher)
-  * [unrar](http://www.techradar.com/how-to/computing/apple/terminal-101-extracting-rar-files-1305669)
-  * [Vim](http://www.vim.org/)
-  * [Visual Studio Code](https://code.visualstudio.com/)
-  * [VLC](http://www.videolan.org/vlc/index.html)
-  * [zsh](http://www.zsh.org/)
-  * [zsh-completions](https://github.com/zsh-users/zsh-completions)
-  * [Yarn](https://yarnpkg.com/)
-* `brew_home.sh`
-  * [Boonzi](http://www.boonzi.pt/)
-  * [Node.js](https://nodejs.org/en/)
-* `brew_work.sh`
-  * [Cyberduck](https://cyberduck.io)
-  * [hub](https://github.com/github/hub)
-  * [Java](https://java.com)
-  * [leiningen](http://leiningen.org/)
-  * [MongoDb](https://www.mongodb.com/)
-  * [MongoDb Compass](https://www.mongodb.com/products/compass)
-  * [node@6](https://nodejs.org/dist/latest-v6.x/docs/doc/api/index.html)
-  * [postgresql](https://www.postgresql.org/)
-  * [redis](https://redis.io/)
-  * [siege](https://github.com/JoeDog/siege)
+```shell
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+You may also need to make sure the scripts are executable by running:
+
+```shell
+find . -iname \*.sh | xargs chmod +x
+```
+
+### Scripts
+
+Several scripts are available in the `scripts` directory. These scripts will install or configure applications for different purposes, and they were separated on purpose so that it's easier to add/remove scripts without affecting the others.
+
+* `.scripts/1_general.sh`: General purpose applications for daily use.
+* `.scripts/2_dev_general.sh`: General development tools.
+* `.scripts/3_terminal_config.sh`: Terminal configuration.
+* `.scripts/4_keys.sh`: Instructions to configure SSH and GPG keys.
+* `.scripts/5_terminal_tools.sh`: Tools to help boosting productivity within the Terminal.
+* `.scripts/6_dev_frontend.sh`: Tools for frontend development.
+* `.scripts/7_dev_kotlin.sh`: Tools for Kotlin development.
+* `.scripts/8_dev_ruby.sh`: Tools for Ruby development.
+* `.scripts/9_git.sh`: Apply git global configuration.
+* `.scripts/10_vscode.sh`: Setup VSCode extensions.
+* `.scripts/11_alias.sh`: Configure aliases.

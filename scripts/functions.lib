@@ -1,0 +1,17 @@
+print_start() {
+  if [ $# -eq 1 ]
+  then
+    echo "Installing $(brew info $1 | head -n 1)"
+  else
+    echo "Installing $(brew $1 info $2 | head -n 1)"
+  fi
+}
+
+install() {
+  if [ $# -eq 1 ]
+  then
+    brew install $1
+  else
+    brew $1 install $2
+  fi
+}
