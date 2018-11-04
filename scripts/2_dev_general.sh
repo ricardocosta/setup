@@ -22,8 +22,3 @@ install cask postman
 
 print_start cask tableplus
 install cask tableplus
-
-echo "\nTo install the 'code' command:"
-echo "- Launch VS Code."
-echo "- Open the Command Palette > Shell Command: Install 'code' command in PATH"
-echo "More details: https://code.visualstudio.com/docs/setup/mac"
