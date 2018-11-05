@@ -6,3 +6,4 @@ echo 'alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules"'
 echo "alias help='tldr'" >> ~/.aliases
 echo "alias ls='ls -G'" >> ~/.aliases
 echo 'alias reload-cfg="source ~/.zshrc"' >> ~/.aliases
+echo "alias local-pg='psql postgres'" >> ~/.aliases
