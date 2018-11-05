@@ -51,8 +51,8 @@ git config --global core.excludesFile "~/.gitignore_global"
 echo "- core.editor \t nvim"
 git config --global core.editor nvim
 
-echo "- core.pager \t diff-so-fancy | less --tabs=1,5 -RFX"
-git config --global core.pager "diff-so-fancy | less --tabs=1,5 -RFX"
+echo "- core.pager \t diff-so-fancy | less --tabs=1,5"
+git config --global core.pager "diff-so-fancy | less --tabs=1,5"
 
 echo "- color.ui \t true"
 git config --global color.ui true
