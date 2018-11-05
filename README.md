@@ -9,6 +9,7 @@ Feel free to fork and adjust the scripts and documentation to your needs.
 * [VS Code](./docs/vscode.md)
 * [Aliases](./docs/aliases.md)
 * [Google Chrome](./docs/chrome.md)
+* [iTerm2](./docs/iterm2.md)
 
 ## Installing
 
