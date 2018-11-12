@@ -48,3 +48,7 @@ Several scripts are available in the `scripts` directory. These scripts will ins
 * `./scripts/9_git.sh`: Apply git global configuration.
 * `./scripts/10_vscode.sh`: Setup VSCode extensions.
 * `./scripts/11_alias.sh`: Configure aliases.
+
+### Finishing
+
+When all applications are installed, make sure to run `brew doctor` so that Homebrew validates everything is okay. You should also run `brew cleanup` to reclaim the disk space taken by installers during the installation process.
