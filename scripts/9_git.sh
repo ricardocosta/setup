@@ -51,8 +51,8 @@ git config --global core.excludesFile "~/.gitignore_global"
 echo "- core.editor \t nvim"
 git config --global core.editor nvim
 
-echo "- core.pager \t diff-so-fancy | less --tabs=1,5 -RFX"
-git config --global core.pager "diff-so-fancy | less --tabs=1,5 -RFX"
+echo "- core.pager \t diff-so-fancy | less --tabs=1,5"
+git config --global core.pager "diff-so-fancy | less --tabs=1,5"
 
 echo "- color.ui \t true"
 git config --global color.ui true
@@ -108,8 +108,15 @@ git config --global rebase.missingCommitsCheck "warn"
 echo "- rebase.abbreviateCommands \t true"
 git config --global rebase.abbreviateCommands true
 
+echo "- gpg.program \t gpg"
+git config --global gpg.program gpg
+
 echo "\nSetup your user email with:"
 echo "git config --global user.email <email>"
 
 echo "\nSetup your user name with:"
-echo "git config --global user.name <name>"
+echo 'git config --global user.name "<name>"'
+
+echo "\nSetup your commit signing key with:"
+echo 'git config --global user.signingkey <KEY ID>'
+echo "Use the output of 'gpg --list-secret-keys --keyid-format LONG' to know the KEY ID (it comes after rsaXXXX/)"

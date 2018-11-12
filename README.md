@@ -9,6 +9,7 @@ Feel free to fork and adjust the scripts and documentation to your needs.
 * [VS Code](./docs/vscode.md)
 * [Aliases](./docs/aliases.md)
 * [Google Chrome](./docs/chrome.md)
+* [iTerm2](./docs/iterm2.md)
 
 ## Installing
 
@@ -36,14 +37,18 @@ find . -iname \*.sh | xargs chmod +x
 
 Several scripts are available in the `scripts` directory. These scripts will install or configure applications for different purposes, and they were separated on purpose so that it's easier to add/remove scripts without affecting the others.
 
-* `.scripts/1_general.sh`: General purpose applications for daily use.
-* `.scripts/2_dev_general.sh`: General development tools.
-* `.scripts/3_terminal_config.sh`: Terminal configuration.
-* `.scripts/4_keys.sh`: Instructions to configure SSH and GPG keys.
-* `.scripts/5_terminal_tools.sh`: Tools to help boosting productivity within the Terminal.
-* `.scripts/6_dev_frontend.sh`: Tools for frontend development.
-* `.scripts/7_dev_kotlin.sh`: Tools for Kotlin development.
-* `.scripts/8_dev_ruby.sh`: Tools for Ruby development.
-* `.scripts/9_git.sh`: Apply git global configuration.
-* `.scripts/10_vscode.sh`: Setup VSCode extensions.
-* `.scripts/11_alias.sh`: Configure aliases.
+* `./scripts/1_general.sh`: General purpose applications for daily use.
+* `./scripts/2_dev_general.sh`: General development tools.
+* `./scripts/3_terminal_config.sh`: Terminal configuration.
+* `./scripts/4_keys.sh`: Instructions to configure SSH and GPG keys.
+* `./scripts/5_terminal_tools.sh`: Tools to help boosting productivity within the Terminal.
+* `./scripts/6_dev_frontend.sh`: Tools for frontend development.
+* `./scripts/7_dev_kotlin.sh`: Tools for Kotlin development.
+* `./scripts/8_dev_ruby.sh`: Tools for Ruby development.
+* `./scripts/9_git.sh`: Apply git global configuration.
+* `./scripts/10_vscode.sh`: Setup VSCode extensions.
+* `./scripts/11_alias.sh`: Configure aliases.
+
+### Finishing
+
+When all applications are installed, make sure to run `brew doctor` so that Homebrew validates everything is okay. You should also run `brew cleanup` to reclaim the disk space taken by installers during the installation process.

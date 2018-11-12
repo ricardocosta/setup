@@ -5,6 +5,9 @@ source "${BASH_SOURCE%/*}/functions.lib"
 print_start gnupg
 install gnupg
 
+print_start pinentry-mac
+install pinentry-mac
+
 echo "\nImport public GPG key with 'gpg --import public_key.asc'"
 echo "\nImport private GPG key with 'gpg --import private_key.asc'"
 
@@ -15,6 +18,9 @@ echo "# enter y<RETURN>"
 
 echo "\nFinally, verify that key is now trusted with [ultimate] instead of [unknown]"
 echo 'gpg --list-keys'
+
+echo 'pinentry-program /usr/local/bin/pinentry-mac' >> ~/.gnupg/gpg-agent.conf
+echo 'no-tty' >> ~/.gnupg/gpg.conf
 
 echo "\nImporting SSH keys..."
 echo "Creating .ssh folder"
