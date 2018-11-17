@@ -5,8 +5,8 @@ source "${BASH_SOURCE%/*}/functions.lib"
 print_start git
 install git
 
-print_start docker
-install docker
+print_start cask docker
+install cask docker
 
 print_start neovim
 install neovim
