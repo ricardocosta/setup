@@ -26,6 +26,8 @@ echo "- Project Manager"
 code --install-extension alefragnani.project-manager
 echo "- Ruby"
 code --install-extension rebornix.ruby
+echo "- TSLint"
+code --install-extension eg2.tslint
 
 # Open file seen on `preview` with VSCode
 echo 'export FZF_DEFAULT_OPTS="--bind='"'"'ctrl-o:execute(code {})+abort'"'"'"' >> ~/.exports

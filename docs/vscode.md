@@ -23,3 +23,4 @@ The following extensions are installed on VSCode using the script `scripts/10_vs
 |Prettify JSON|`mohsen1.prettify-json`|Visual Studio Code Prettify JSON Extension.|
 |Project Manager|`alefragnani.project-manager`|Easily switch between projects.|
 |Ruby|`rebornix.ruby`|Provides Ruby language and debugging support for Visual Studio Code.|
+|TSLint|`eg2.tslint`|TSLint for Visual Studio Code.|
