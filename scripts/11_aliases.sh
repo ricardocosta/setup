@@ -7,3 +7,4 @@ echo "alias help='tldr'" >> ~/.aliases
 echo "alias ls='ls -G'" >> ~/.aliases
 echo 'alias reload-cfg="source ~/.zshrc"' >> ~/.aliases
 echo "alias local-pg='psql postgres'" >> ~/.aliases
+echo "alias vim='nvim'" >> ~/.aliases

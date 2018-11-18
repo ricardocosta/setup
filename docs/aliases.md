@@ -9,3 +9,4 @@
 |`preview`|`fzf --preview 'bat --color \"always\" {}'`|
 |`reload-cfg`|`source ~/.zshrc`|
 |`local-pg`|`psql postgres`|
+|`vim`|`nvim`|
