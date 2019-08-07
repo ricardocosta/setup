@@ -10,3 +10,6 @@ install yarn
 
 print_start cask firefox
 install cask firefox
+
+print_start cask homebrew/cask-versions/microsoft-edge-dev
+install cask homebrew/cask-versions/microsoft-edge-dev

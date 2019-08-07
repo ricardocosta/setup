@@ -78,6 +78,7 @@ Tools for frontend development.
 |[NVM](https://github.com/creationix/nvm)|Node Version Manager - Simple bash script to manage multiple active node.js versions.|
 |[Yarn](https://yarnpkg.com)|Yarn is a package manager for your code.|
 |[Firefox](https://www.mozilla.org/en-US/firefox/)|Mozilla's browser, the 2nd most used on Desktop.|
+|[Edge](https://www.microsoftedgeinsider.com/en-us/download/)|Microsoft Edge, but Chromium-based.|
 
 ### Kotlin Development
 
