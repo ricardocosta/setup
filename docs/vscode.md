@@ -14,13 +14,14 @@ The following extensions are installed on VSCode using the script `scripts/10_vs
 |:--------|:-|:----------|
 |Code Spell Checker|`streetsidesoftware.code-spell-checker`|Spelling checker for source code.|
 |Debugger for Chrome|`msjsdiag.debugger-for-chrome`|Debug your JavaScript code in the Chrome browser, or any other target that supports the Chrome Debugger protocol.|
-|Docker|`peterjausovec.vscode-docker`|Adds syntax highlighting, commands, hover tips, and linting for Dockerfile and docker-compose files.|
+|Docker|`ms-azuretools.vscode-docker`|Adds syntax highlighting, commands, hover tips, and linting for Dockerfile and docker-compose files.|
 |ESLint|`dbaeumer.vscode-eslint`|Integrates ESLint JavaScript into VS Code.|
 |GitLens|`eamodio.gitlens`|Supercharge the Git capabilities built into Visual Studio Code.|
 |Jest|`orta.vscode-jest`|Use Facebook's Jest With Pleasure.|
 |Markdown All in One|`yzhang.markdown-all-in-one`|All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more).|
+|Path Intellisense|`christian-kohler.path-intellisense`|Visual Studio Code plugin that autocompletes filenames.|
 |Prettier|`esbenp.prettier-vscode`|VS Code plugin for prettier/prettier.|
 |Prettify JSON|`mohsen1.prettify-json`|Visual Studio Code Prettify JSON Extension.|
 |Project Manager|`alefragnani.project-manager`|Easily switch between projects.|
 |Ruby|`rebornix.ruby`|Provides Ruby language and debugging support for Visual Studio Code.|
-|TSLint|`eg2.tslint`|TSLint for Visual Studio Code.|
+|TSLint|`ms-vscode.vscode-typescript-tslint-plugin`|TSLint for Visual Studio Code.|
