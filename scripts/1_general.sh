@@ -14,6 +14,9 @@ install cask google-chrome
 print_start cask keybase
 install cask keybase
 
+print_start cask onlyoffice
+install cask onlyoffice
+
 print_start cask rocket
 install cask rocket
 
