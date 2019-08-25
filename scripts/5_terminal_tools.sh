@@ -38,14 +38,14 @@ install noti
 print_start q
 install q
 
-print_start siege
-install siege
-
 print_start the_silver_searcher
 install the_silver_searcher
 
 print_start tldr
 install tldr
+
+print_start vegeta
+install vegeta
 
 print_start unrar
 install unrar

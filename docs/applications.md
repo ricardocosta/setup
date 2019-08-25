@@ -65,9 +65,9 @@ Tools to help boosting productivity within the Terminal.
 |[ncdu](https://dev.yorhel.nl/ncdu)|`ncdu` is a disk usage analyzer with an ncurses interface.|
 |[noti](https://github.com/variadico/noti)|Tool that monitors a process and triggers a notification when done.|
 |[q](https://github.com/harelba/q)|`q` is a command line tool that allows direct execution of SQL-like queries on CSVs/TSVs (and any other tabular text files). It overlaps a bit with the functionalities provided by `csvkit`.|
-|[siege](https://github.com/JoeDog/siege)|HTTP load tester and benchmarking utility.|
 |[The Silver Searcher](https://github.com/ggreer/the_silver_searcher)|A code-searching tool similar to `ack`, but faster.|
 |[tldr](https://github.com/tldr-pages/tldr)|Simplified and community-driven man pages.|
+|[vegeta](https://github.com/tsenart/vegeta)|HTTP load testing tool and library.|
 |[unrar](https://www.rarlab.com/)|Utility to Extract, view, and test RAR archives.|
 
 ### Frontend Development
