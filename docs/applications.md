@@ -13,12 +13,12 @@ General purpose applications for daily use.
 |[Google Chrome](https://www.google.com/chrome/)||
 |[Keybase](https://keybase.io/)|Key directory that maps social media identities to encryption keys in a publicly auditable manner. Keybase offers an end-to-end encrypted chat and cloud storage system.|
 |[ONLYOFFICE](https://www.onlyoffice.com/)|Office suite.|
+|[Notion](https://www.notion.so)|All-in-one workspace.|
 |[Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)|Useful plugins for Quick Look for faster preview of non-natively supported file types. In this case, preview for Markdown files and files without extension is installed.|
 |[Rocket](https://matthewpalmer.net/rocket/)|Emoji on MacOS, Slack style. Just type `:` for a emoji picker to show up. |
 |[Slack](https://slack.com/)||
 |[Spectacle](https://www.spectacleapp.com)|App to help with window management based on keyboard shortcuts.|
 |[Spotify](https://www.spotify.com/)|Music streaming service that gives you access to millions of songs.|
-|[Typora](https://typora.io/)|Minimal markdown editor, providing new ways for reading and writing markdown.|
 |[VLC](https://www.videolan.org/vlc/)|Cross-platform multimedia player and framework that plays most multimedia files.|
 |[WhatsApp](https://www.whatsapp.com/)||
 
