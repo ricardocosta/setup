@@ -11,9 +11,6 @@ install cask alfred
 print_start cask google-chrome
 install cask google-chrome
 
-print_start cask grammarly
-install cask grammarly
-
 print_start cask keybase
 install cask keybase
 
