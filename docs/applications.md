@@ -11,7 +11,6 @@ General purpose applications for daily use.
 |[1Password](https://1password.com/)|Password manager that provides a place for users to store various passwords, software licenses, and other sensitive information in a virtual vault that is locked with a PBKDF2-guarded master password.|
 |[Alfred](https://www.alfredapp.com/)|App for MacOS which boosts your efficiency with hotkeys, keywords, text expansion and more.|
 |[Google Chrome](https://www.google.com/chrome/)||
-|[Grammarly](https://www.grammarly.com/)|Grammar checking, spell checking, and plagiarism detection platform.|
 |[Keybase](https://keybase.io/)|Key directory that maps social media identities to encryption keys in a publicly auditable manner. Keybase offers an end-to-end encrypted chat and cloud storage system.|
 |[Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)|Useful plugins for Quick Look for faster preview of non-natively supported file types. In this case, preview for Markdown files and files without extension is installed.|
 |[Rocket](https://matthewpalmer.net/rocket/)|Emoji on MacOS, Slack style. Just type `:` for a emoji picker to show up. |
