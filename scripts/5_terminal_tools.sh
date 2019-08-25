@@ -14,6 +14,9 @@ install csvkit
 print_start diff-so-fancy
 install diff-so-fancy
 
+print_start dive
+install dive
+
 print_start fd
 install fd
 

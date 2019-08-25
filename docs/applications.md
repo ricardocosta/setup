@@ -56,6 +56,7 @@ Tools to help boosting productivity within the Terminal.
 |[bat](https://github.com/sharkdp/bat)|A `cat` clone with syntax highlighting and Git integration.|
 |[csvkit](https://github.com/wireservice/csvkit)|A suite of utilities for converting to and working with CSV, the king of tabular file formats.|
 |[diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)|`diff-so-fancy` strives to make your diffs human readable instead of machine readable. This helps improve code quality and help you spot defects faster.|
+|[dive](https://github.com/wagoodman/dive)|A tool for exploring each layer in a docker image.|
 |[fd](https://github.com/sharkdp/fd)|A simple, fast and user-friendly alternative to `find`.|
 |[fzf](https://github.com/junegunn/fzf)|`fzf` is a general-purpose command-line fuzzy finder.|
 |[htop](https://hisham.hm/htop/index.php)|Interactive process viewer for Unix systems.|
