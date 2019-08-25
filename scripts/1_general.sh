@@ -17,6 +17,9 @@ install cask keybase
 print_start cask onlyoffice
 install cask onlyoffice
 
+print_start cask notion
+install cask notion
+
 print_start cask rocket
 install cask rocket
 
@@ -31,9 +34,6 @@ install cask spectacle
 
 print_start cask spotify
 install cask spotify
-
-print_start cask typora
-install cask typora
 
 print_start cask vlc
 install cask vlc
