@@ -87,7 +87,7 @@ Tools for Kotlin development.
 
 |||
 |-|-|
-|[Java](http://www.oracle.com/technetwork/java/javase/overview/index.html)|Java Standard Edition Development Kit.|
+|[Java](https://openjdk.java.net)|Java Standard Edition Development Kit.|
 |[kotlin](https://kotlinlang.org/)|Statically typed programming language for modern multiplatform applications.|
 |[IntelliJ](https://www.jetbrains.com/idea/)|IDE for developing Java-based software.|
 
