@@ -7,3 +7,6 @@ install chruby
 
 print_start ruby-install
 install ruby-install
+
+echo "Installing Ruby extension in VSCode"
+code --install-extension rebornix.ruby
