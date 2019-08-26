@@ -12,6 +12,7 @@ The following extensions are installed on VSCode using the script `scripts/10_vs
 
 |Extension|ID|Description|
 |:--------|:-|:----------|
+|Code Runner|`formulahendry.code-runner`|Run code snippet or code file for multiple languages.|
 |Code Spell Checker|`streetsidesoftware.code-spell-checker`|Spelling checker for source code.|
 |Debugger for Chrome|`msjsdiag.debugger-for-chrome`|Debug your JavaScript code in the Chrome browser, or any other target that supports the Chrome Debugger protocol.|
 |Docker|`ms-azuretools.vscode-docker`|Adds syntax highlighting, commands, hover tips, and linting for Dockerfile and docker-compose files.|

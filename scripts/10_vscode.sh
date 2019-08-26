@@ -4,6 +4,8 @@ echo "Installing VSCode configuration..."
 
 ## Extensions
 echo "\nInstalling Extensions..."
+echo "- Code Runner"
+code --install-extension formulahendry.code-runner
 echo "- Code Spell Checker"
 code --install-extension streetsidesoftware.code-spell-checker
 echo "- Debugger for Chrome"
