@@ -19,6 +19,7 @@ The following extensions are installed on VSCode using the script `scripts/10_vs
 |ESLint|`dbaeumer.vscode-eslint`|Integrates ESLint JavaScript into VS Code.|
 |GitLens|`eamodio.gitlens`|Supercharge the Git capabilities built into Visual Studio Code.|
 |Jest|`orta.vscode-jest`|Use Facebook's Jest With Pleasure.|
+|Kotlin|`mathiasfrohlich.Kotlin`| Syntax support for the Kotlin programming language.|
 |Markdown All in One|`yzhang.markdown-all-in-one`|All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more).|
 |Path Intellisense|`christian-kohler.path-intellisense`|Visual Studio Code plugin that autocompletes filenames.|
 |Prettier|`esbenp.prettier-vscode`|VS Code plugin for prettier/prettier.|
