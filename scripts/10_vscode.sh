@@ -28,8 +28,6 @@ echo "- Prettify JSON"
 code --install-extension mohsen1.prettify-json
 echo "- Project Manager"
 code --install-extension alefragnani.project-manager
-echo "- Ruby"
-code --install-extension rebornix.ruby
 echo "- TSLint"
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 
