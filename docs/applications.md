@@ -29,6 +29,7 @@ General development tools.
 |||
 |-|-|
 |[Git](https://git-scm.com/)|A free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.|
+|[Discord](https://discordapp.com/)|All-in-one voice and text chat.|
 |[Docker](https://www.docker.com/)|Computer program that performs operating-system-level virtualization, also known as "containerization".|
 |[Neovim](https://neovim.io/)|Neovim is a project that seeks to aggressively refactor Vim.|
 |[Visual Studio Code](https://code.visualstudio.com/)|Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop.|
