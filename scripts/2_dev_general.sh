@@ -5,6 +5,9 @@ source "${BASH_SOURCE%/*}/functions.lib"
 print_start git
 install git
 
+print_start cask discord
+install cask discord
+
 print_start cask docker
 install cask docker
 
