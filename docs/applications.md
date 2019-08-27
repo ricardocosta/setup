@@ -69,6 +69,7 @@ Tools to help boosting productivity within the Terminal.
 |[The Silver Searcher](https://github.com/ggreer/the_silver_searcher)|A code-searching tool similar to `ack`, but faster.|
 |[tldr](https://github.com/tldr-pages/tldr)|Simplified and community-driven man pages.|
 |[vegeta](https://github.com/tsenart/vegeta)|HTTP load testing tool and library.|
+|[watch](https://gitlab.com/procps-ng/procps)|Execute a program periodically, showing output fullscreen.|
 |[unrar](https://www.rarlab.com/)|Utility to Extract, view, and test RAR archives.|
 
 ### Frontend Development

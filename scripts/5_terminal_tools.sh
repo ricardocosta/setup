@@ -47,6 +47,9 @@ install tldr
 print_start vegeta
 install vegeta
 
+print_start watch
+install watch
+
 print_start unrar
 install unrar
 
