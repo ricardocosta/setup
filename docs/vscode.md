@@ -27,3 +27,10 @@ The following extensions are installed on VSCode using the script `scripts/10_vs
 |Project Manager|`alefragnani.project-manager`|Easily switch between projects.|
 |Ruby|`rebornix.ruby`|Provides Ruby language and debugging support for Visual Studio Code.|
 |TSLint|`ms-vscode.vscode-typescript-tslint-plugin`|TSLint for Visual Studio Code.|
+
+Themes and Icon are also installed:
+|Extension|ID|Description|
+|:--------|:-|:----------|
+|One Dark Pro|`zhuangtongfa.Material-theme`|Atom's iconic One Dark theme for Visual Studio Code.|
+|Ayu|`teabyii.ayu`|A simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work.|
+|Material Icon Theme|`PKief.material-icon-theme`|The Material Icon Theme provides lots of icons based on Material Design for Visual Studio Code.|

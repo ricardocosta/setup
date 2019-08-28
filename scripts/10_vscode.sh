@@ -31,5 +31,13 @@ code --install-extension alefragnani.project-manager
 echo "- TSLint"
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 
+## Themes & Icons
+echo "- One Dark Pro"
+code --install-extension zhuangtongfa.Material-theme
+echo "- Ayu"
+code --install-extension teabyii.ayu
+echo "- Material Icon Theme"
+code --install-extension PKief.material-icon-theme
+
 # Open file seen on `preview` with VSCode
 echo 'export FZF_DEFAULT_OPTS="--bind='"'"'ctrl-o:execute(code {})+abort'"'"'"' >> ~/.exports
