@@ -1,43 +1,50 @@
 #!/bin/sh
 
-echo "Installing VSCode configuration..."
+source "${BASH_SOURCE%/*}/functions.lib"
 
-## Extensions
-echo "\nInstalling Extensions..."
-echo "- Code Runner"
-code --install-extension formulahendry.code-runner
-echo "- Code Spell Checker"
-code --install-extension streetsidesoftware.code-spell-checker
-echo "- Debugger for Chrome"
-code --install-extension msjsdiag.debugger-for-chrome
-echo "- Docker"
-code --install-extension ms-azuretools.vscode-docker
-echo "- ESLint"
-code --install-extension dbaeumer.vscode-eslint
-echo "- GitLens"
-code --install-extension eamodio.gitlens
-echo "- Jest"
-code --install-extension orta.vscode-jest
-echo "- Markdown All in One"
-code --install-extension yzhang.markdown-all-in-one
-echo "- Path Intellisense"
-code --install-extension christian-kohler.path-intellisense
-echo "- Prettier"
-code --install-extension esbenp.prettier-vscode
-echo "- Prettify JSON"
-code --install-extension mohsen1.prettify-json
-echo "- Project Manager"
-code --install-extension alefragnani.project-manager
-echo "- TSLint"
-code --install-extension ms-vscode.vscode-typescript-tslint-plugin
+readonly EXTENSIONS=(
+    # Extensions
+    "formulahendry.code-runner:Code Runner"
+    "streetsidesoftware.code-spell-checker:Code Spell Checker"
+    "msjsdiag.debugger-for-chrome:Debugger for Chrome"
+    "ms-azuretools.vscode-docker:Docker"
+    "dbaeumer.vscode-eslint:ESLint"
+    "eamodio.gitlens:GitLens"
+    "orta.vscode-jest:Jest"
+    "yzhang.markdown-all-in-one:Markdown All in One"
+    "christian-kohler.path-intellisense:Path Intellisense"
+    "esbenp.prettier-vscode:Prettier"
+    "mohsen1.prettify-json:Prettify JSON"
+    "alefragnani.project-manager:Project Manager"
+    "ms-vscode.vscode-typescript-tslint-plugin:TSLint"
+    # Themes & Icons
+    "zhuangtongfa.Material-theme:One Dark Pro"
+    "teabyii.ayu:Ayu"
+    "PKief.material-icon-theme:Material Icon Theme"
+)
 
-## Themes & Icons
-echo "- One Dark Pro"
-code --install-extension zhuangtongfa.Material-theme
-echo "- Ayu"
-code --install-extension teabyii.ayu
-echo "- Material Icon Theme"
-code --install-extension PKief.material-icon-theme
+function install_extensions() {
+    printf "  Installing Extensions...\n"
 
-# Open file seen on `preview` with VSCode
-echo 'export FZF_DEFAULT_OPTS="--bind='"'"'ctrl-o:execute(code {})+abort'"'"'"' >> ~/.exports
+    for ext in "${EXTENSIONS[@]}"; do
+        KEY=${ext%:*}
+        VALUE=${ext#*:}
+
+        printf "${_GREEN}    - %s\n${_NC}" "$VALUE"
+        code --install-extension "$KEY"
+    done
+}
+
+function configure_keybindings() {
+    # Open file seen on `preview` with VSCode
+    grep "FZF_DEFAULT_OPTS" ~/.exports
+    if [ $? -eq 1 ]; then
+        echo 'export FZF_DEFAULT_OPTS="--bind='"'"'ctrl-o:execute(code {})+abort'"'"'"' >> ~/.exports
+    fi
+}
+
+printf "Installing VSCode configuration...\n"
+install_extensions
+configure_keybindings
+
+exit 0
