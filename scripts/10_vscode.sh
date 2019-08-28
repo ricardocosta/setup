@@ -23,6 +23,11 @@ readonly EXTENSIONS=(
     "PKief.material-icon-theme:Material Icon Theme"
 )
 
+readonly CONFIGS=(
+    "workbench.colorTheme:One Dark Pro Vivid"
+    "workbench.iconTheme:material-icon-theme"
+)
+
 function install_extensions() {
     printf "  Installing Extensions...\n"
 
@@ -32,6 +37,20 @@ function install_extensions() {
 
         printf "${_GREEN}    - %s\n${_NC}" "$VALUE"
         code --install-extension "$KEY"
+    done
+}
+
+function add_configuration() {
+    printf "  Setting Configuration...\n"
+    FILE='Library/Application Support/Code/User/settings.json'
+
+    for cfg in "${CONFIGS[@]}"; do
+        KEY=${cfg%:*}
+        VALUE=${cfg#*:}
+
+        printf "${_GREEN}    - %s = %s\n${_NC}" "$KEY" "$VALUE"
+        OUT=`(cat ~/"$FILE" | jq ". + { \""$KEY"\": \"""$VALUE""\"}")`
+        echo $OUT | jq . > ~/"$FILE"
     done
 }
 
@@ -45,6 +64,7 @@ function configure_keybindings() {
 
 printf "Installing VSCode configuration...\n"
 install_extensions
+add_configuration
 configure_keybindings
 
 exit 0
