@@ -29,8 +29,8 @@ install cask qlstephen
 print_start cask slack
 install cask slack
 
-print_start cask spectacle
-install cask spectacle
+print_start cask rectangle
+install cask rectangle
 
 print_start cask spotify
 install cask spotify

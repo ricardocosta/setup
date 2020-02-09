@@ -17,7 +17,7 @@ General purpose applications for daily use.
 |[Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)|Useful plugins for Quick Look for faster preview of non-natively supported file types. In this case, preview for Markdown files and files without extension is installed.|
 |[Rocket](https://matthewpalmer.net/rocket/)|Emoji on MacOS, Slack style. Just type `:` for a emoji picker to show up. |
 |[Slack](https://slack.com/)||
-|[Spectacle](https://www.spectacleapp.com)|App to help with window management based on keyboard shortcuts.|
+|[Rectangle](https://rectangleapp.com/)|App to help with window management based on keyboard shortcuts.|
 |[Spotify](https://www.spotify.com/)|Music streaming service that gives you access to millions of songs.|
 |[VLC](https://www.videolan.org/vlc/)|Cross-platform multimedia player and framework that plays most multimedia files.|
 |[WhatsApp](https://www.whatsapp.com/)||
