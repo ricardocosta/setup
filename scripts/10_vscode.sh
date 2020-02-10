@@ -10,7 +10,7 @@ readonly EXTENSIONS=(
     "ms-azuretools.vscode-docker:Docker"
     "dbaeumer.vscode-eslint:ESLint"
     "eamodio.gitlens:GitLens"
-    "orta.vscode-jest:Jest"
+    "mathiasfrohlich.kotlin:Kotlin Language"
     "yzhang.markdown-all-in-one:Markdown All in One"
     "christian-kohler.path-intellisense:Path Intellisense"
     "esbenp.prettier-vscode:Prettier"
@@ -19,13 +19,7 @@ readonly EXTENSIONS=(
     "ms-vscode.vscode-typescript-tslint-plugin:TSLint"
     # Themes & Icons
     "zhuangtongfa.Material-theme:One Dark Pro"
-    "teabyii.ayu:Ayu"
     "PKief.material-icon-theme:Material Icon Theme"
-)
-
-readonly CONFIGS=(
-    "workbench.colorTheme:One Dark Pro Vivid"
-    "workbench.iconTheme:material-icon-theme"
 )
 
 function install_extensions() {
@@ -40,20 +34,6 @@ function install_extensions() {
     done
 }
 
-function add_configuration() {
-    printf "  Setting Configuration...\n"
-    FILE='Library/Application Support/Code/User/settings.json'
-
-    for cfg in "${CONFIGS[@]}"; do
-        KEY=${cfg%:*}
-        VALUE=${cfg#*:}
-
-        printf "${_GREEN}    - %s = %s\n${_NC}" "$KEY" "$VALUE"
-        OUT=`(cat ~/"$FILE" | jq ". + { \""$KEY"\": \"""$VALUE""\"}")`
-        echo $OUT | jq . > ~/"$FILE"
-    done
-}
-
 function configure_keybindings() {
     # Open file seen on `preview` with VSCode
     grep "FZF_DEFAULT_OPTS" ~/.exports
@@ -64,7 +44,6 @@ function configure_keybindings() {
 
 printf "Installing VSCode configuration...\n"
 install_extensions
-add_configuration
 configure_keybindings
 
 exit 0
