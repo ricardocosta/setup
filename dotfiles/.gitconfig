@@ -1,0 +1,41 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	excludesFile = ~/.gitignore_global
+	editor = nvim
+	pager = diff-so-fancy | less --tabs=1,5
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[commit]
+	gpgSign = true
+[credential]
+	helper = osxkeychain
+[format]
+	pretty = format:%C(auto,yellow)%h%C(auto,magenta)% G? %C(auto,blue)%>(25,trunc)%ad %C(auto,green)%<(15,trunc)%aN%C(auto,reset)%s%C(auto,red)% gD% D
+[log]
+	date = iso8601
+[rebase]
+	autoSquash = true
+	missingCommitsCheck = warn
+	abbreviateCommands = true
+[gpg]
+	program = gpg
+[user]
+	email = ricardo.costa@talkdesk.com
+	name = Ricardo Costa
+	signingkey = 2F98FBEB5611F7DA
