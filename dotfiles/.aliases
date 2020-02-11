@@ -1,0 +1,8 @@
+alias cat='bat'
+alias preview="fzf --preview 'bat --color \"always\" {}'"
+alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
+alias help='tldr'
+alias ls='ls -G'
+alias reload-cfg="source ~/.zshrc"
+alias local-pg='psql postgres'
+alias vim='nvim'

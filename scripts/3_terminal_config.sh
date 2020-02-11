@@ -11,13 +11,13 @@ install zsh
 echo "Installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-:> ~/.exports
+cp ../dotfiles/.exports ~/.exports
 echo 'source ~/.exports' >> ~/.zshrc
 
-:> ~/.aliases
+cp ../dotfiles/.aliases ~/.aliases
 echo 'source ~/.aliases' >> ~/.zshrc
 
-:> ~/.theme
+cp ../dotfiles/.theme ~/.theme
 echo 'source ~/.theme' >> ~/.zshrc
 
 echo "You should close and reopen the Terminal. Since iTerm2 is now installed, you might as well start using it now."

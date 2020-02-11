@@ -1,0 +1,8 @@
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
+export LC_ALL=en_US.UTF-8

@@ -13,7 +13,7 @@ I use keyboard navigation a lot, with `⌘` and `⌥` keys. Unfortunately, iTerm
 | :------------------- | :------------ | :---------- |
 | `⌥` + `←`            | Send Hex Code | `0x1b 0x62` |
 | `⌥` + `→`            | Send Hex Code | `0x1b 0x66` |
-| `⌘` + `←`            | Send Hex Code | `0x01` |
+| `⌘` + `←`            | Send Hex Code | `0x01`      |
 | `⌘` + `→`            | Send Hex Code | `0x05`      |
 | `⌥` + `←Delete`      | Send Hex Code | `0x1b 0x08` |
 | `⌘` + `←Delete`      | Send Hex Code | `0x15`      |
@@ -29,7 +29,7 @@ Don't forget to remove the **previous bindings**:
 
 A couple of ideas for color schemes to use in iTerm2:
 
-- [Seti](https://github.com/willmanduffy/seti-iterm)
+- [Material Shell Oceanic](https://github.com/carloscuesta/materialshell)
 - A lot more are available [here](https://github.com/mbadolato/iTerm2-Color-Schemes).
 
 ## Fonts
@@ -43,9 +43,6 @@ brew cask install <font>
 
 These are the fonts I install:
 - `font-hack-nerd-font`
-- `font-fira-code`
-- `font-fira-mono`
+- `font-jetbrains-mono`
 - `font-inconsolata`
 - `font-source-code-pro`
-
-For iTerm2, I use `Inconsolata` for regular text, and `Hack Nerd Font` for Non-ASCII text — the glyphs that I configure for the prompt.

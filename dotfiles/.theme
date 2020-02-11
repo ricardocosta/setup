@@ -1,0 +1,30 @@
+SPACESHIP_PROMPT_ORDER=(
+  time          # Time stamps section
+  dir           # Current directory section
+  git           # Git section (git_branch + git_status)
+  node          # Node.js section
+  ruby          # Ruby section
+  exec_time     # Execution time
+  line_sep      # Line break
+  char          # Prompt character
+)
+
+SPACESHIP_TIME_SHOW=true
+SPACESHIP_TIME_COLOR=254
+
+SPACESHIP_DIR_PREFIX="["
+SPACESHIP_DIR_SUFFIX="] "
+SPACESHIP_DIR_COLOR=039
+
+SPACESHIP_GIT_PREFIX=""
+SPACESHIP_GIT_BRANCH_COLOR=yellow
+SPACESHIP_GIT_BRANCH_PREFIX=" "
+
+SPACESHIP_NODE_SYMBOL=" "
+
+SPACESHIP_RUBY_SYMBOL=" "
+
+SPACESHIP_EXEC_TIME_COLOR=254
+SPACESHIP_EXEC_TIME_PREFIX=" "
+
+ZSH_THEME="spaceship"
