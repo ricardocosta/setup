@@ -20,5 +20,6 @@ echo 'source ~/.aliases' >> ~/.zshrc
 cp ../dotfiles/.theme ~/.theme
 echo 'source ~/.theme' >> ~/.zshrc
 
-echo "You should close and reopen the Terminal. Since iTerm2 is now installed, you might as well start using it now."
-echo "Use ~/.theme for terminal's theme variable exports."
+echo 'Installing spaceship prompt'
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
