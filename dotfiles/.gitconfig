@@ -35,7 +35,3 @@
 	abbreviateCommands = true
 [gpg]
 	program = gpg
-[user]
-	email = ricardo.costa@talkdesk.com
-	name = Ricardo Costa
-	signingkey = 2F98FBEB5611F7DA
