@@ -46,7 +46,7 @@ Several scripts are available in the `scripts` directory. These scripts will ins
 * `./scripts/8_dev_ruby.sh`: Tools for Ruby development.
 * `./scripts/9_git.sh`: Apply git global configuration.
 * `./scripts/10_vscode.sh`: Setup VSCode extensions (Make sure you have `code` available in `PATH`).
-* `./scripts/11_aliases.sh`: Configure aliases.
+* `./scripts/11_fonts.sh`: Install fonts.
 
 ### Finishing
 
