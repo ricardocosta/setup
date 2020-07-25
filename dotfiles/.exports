@@ -3,6 +3,9 @@
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
-export JAVA_HOME=$(/usr/libexec/java_home)
+if type /usr/libexec/java_home &> /dev/null; then
+  export JAVA_HOME=$(/usr/libexec/java_home)
+fi
+
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 export LC_ALL=en_US.UTF-8
