@@ -9,3 +9,8 @@ fi
 
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 export LC_ALL=en_US.UTF-8
+
+fd() {
+  preview="git diff $@ --color=always -- {-1}"
+  git diff $@ --name-only | fzf -m --ansi --preview $preview
+}
