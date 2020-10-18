@@ -17,6 +17,7 @@ readonly EXTENSIONS=(
     "mohsen1.prettify-json:Prettify JSON"
     "alefragnani.project-manager:Project Manager"
     "visualstudioexptteam.vscodeintellicode"
+    "ms-edgedevtools.vscode-edge-devtools"
     # Themes & Icons
     "zhuangtongfa.Material-theme:One Dark Pro"
     "PKief.material-icon-theme:Material Icon Theme"
