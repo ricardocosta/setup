@@ -18,6 +18,7 @@ readonly EXTENSIONS=(
     "alefragnani.project-manager:Project Manager"
     "visualstudioexptteam.vscodeintellicode"
     "ms-edgedevtools.vscode-edge-devtools"
+    "tabnine.tabnine-vscode:Tabnine Autocomplete AI"
     # Themes & Icons
     "zhuangtongfa.Material-theme:One Dark Pro"
     "PKief.material-icon-theme:Material Icon Theme"
