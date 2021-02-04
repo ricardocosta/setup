@@ -8,8 +8,8 @@ install cask 1password
 print_start cask alfred
 install cask alfred
 
-print_start cask google-chrome
-install cask google-chrome
+print_start cask microsoft-edge
+install cask microsoft-edge
 
 print_start cask keybase
 install cask keybase
