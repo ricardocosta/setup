@@ -80,6 +80,7 @@ Tools for frontend development.
 |-|-|
 |[NVM](https://github.com/creationix/nvm)|Node Version Manager - Simple bash script to manage multiple active node.js versions.|
 |[Yarn](https://yarnpkg.com)|Yarn is a package manager for your code.|
+|[Figma](https://www.figma.com/)|Figma is a vector graphics editor and prototyping tool.|
 |[Firefox](https://www.mozilla.org/en-US/firefox/)|Mozilla's browser, the 2nd most used on Desktop.|
 |[Google Chrome](https://www.google.com/chrome/)||
 
