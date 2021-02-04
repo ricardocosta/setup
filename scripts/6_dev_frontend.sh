@@ -3,7 +3,7 @@
 source "${BASH_SOURCE%/*}/functions.lib"
 
 echo "Installing nvm"
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 
 print_start yarn
 install yarn
