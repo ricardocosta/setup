@@ -11,5 +11,5 @@ install yarn
 print_start cask firefox
 install cask firefox
 
-print_start cask microsoft-edge
-install cask microsoft-edge
+print_start cask google-chrome
+install cask google-chrome
