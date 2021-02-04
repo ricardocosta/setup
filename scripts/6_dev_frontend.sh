@@ -13,3 +13,6 @@ install cask firefox
 
 print_start cask google-chrome
 install cask google-chrome
+
+print_start cask figma
+install cask figma
