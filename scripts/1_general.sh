@@ -11,20 +11,14 @@ install cask alfred
 print_start cask microsoft-edge
 install cask microsoft-edge
 
-print_start cask keybase
-install cask keybase
+print_start cask marta
+install cask marta
 
 print_start cask onlyoffice
 install cask onlyoffice
 
 print_start cask notion
 install cask notion
-
-print_start cask rocket
-install cask rocket
-
-print_start cask qlstephen
-install cask qlstephen
 
 print_start cask slack
 install cask slack
@@ -40,3 +34,6 @@ install cask vlc
 
 print_start cask whatsapp
 install cask whatsapp
+
+print_start cask signal
+install cask signal
