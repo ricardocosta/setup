@@ -4,10 +4,7 @@ source "${BASH_SOURCE%/*}/functions.lib"
 
 readonly EXTENSIONS=(
     # Extensions
-    "formulahendry.code-runner:Code Runner"
     "streetsidesoftware.code-spell-checker:Code Spell Checker"
-    "msjsdiag.debugger-for-chrome:Debugger for Chrome"
-    "ms-azuretools.vscode-docker:Docker"
     "dbaeumer.vscode-eslint:ESLint"
     "eamodio.gitlens:GitLens"
     "mathiasfrohlich.kotlin:Kotlin Language"
@@ -16,9 +13,7 @@ readonly EXTENSIONS=(
     "esbenp.prettier-vscode:Prettier"
     "mohsen1.prettify-json:Prettify JSON"
     "alefragnani.project-manager:Project Manager"
-    "visualstudioexptteam.vscodeintellicode"
-    "ms-edgedevtools.vscode-edge-devtools"
-    "tabnine.tabnine-vscode:Tabnine Autocomplete AI"
+    "team-sapling.sapling"
     # Themes & Icons
     "zhuangtongfa.Material-theme:One Dark Pro"
     "PKief.material-icon-theme:Material Icon Theme"
