@@ -14,6 +14,3 @@ install cask font-jetbrains-mono
 
 print_start cask font-inconsolata
 install cask font-inconsolata
-
-print_start cask font-source-code-pro
-install cask font-source-code-pro
