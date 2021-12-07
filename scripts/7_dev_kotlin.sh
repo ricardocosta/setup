@@ -2,10 +2,7 @@
 
 source "${BASH_SOURCE%/*}/functions.lib"
 
-print_start cask java
-install cask java
-
-echo 'export JAVA_HOME=$(/usr/libexec/java_home)' >> ~/.exports
+install cask oracle-jdk
 
 print_start kotlin
 install kotlin
