@@ -3,20 +3,10 @@ _GREEN='\033[0;32m'
 _RED='\033[0;31m'
 _NC='\033[0m'
 
-print_start() {
-  if [ $# -eq 1 ]
-  then
-    echo "Installing $(brew info $1 | head -n 1)"
-  else
-    echo "Installing $(brew info --cask $2 | head -n 1)"
-  fi
-}
+function install() {
+  for FRM in "$@"; do
+    printf "${_GREEN}%s\n${_NC}" "$FRM"
 
-install() {
-  if [ $# -eq 1 ]
-  then
-    brew install $1
-  else
-    brew install --cask $2
-  fi
+    brew install "$FRM"
+  done
 }

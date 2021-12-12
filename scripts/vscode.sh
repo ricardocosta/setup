@@ -20,7 +20,7 @@ readonly EXTENSIONS=(
 )
 
 function install_extensions() {
-    printf "  Installing Extensions...\n"
+    printf "  Installing VSCode Extensions...\n"
 
     for ext in "${EXTENSIONS[@]}"; do
         KEY=${ext%:*}

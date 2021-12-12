@@ -34,15 +34,4 @@ A couple of ideas for color schemes to use in iTerm2:
 
 ## Fonts
 
-I like to configure the zshell prompt using [Spaceship Prompt](https://github.com/denysdovhan/spaceship-prompt). It states [Powerline Font](https://github.com/powerline/fonts) as a requirement, but I usually install a [Nerd Font](https://github.com/ryanoasis/nerd-fonts) using Homebrew:
-
-```
-brew tap homebrew/cask-fonts
-brew cask install <font>
-```
-
-These are the fonts I install:
-- `font-hack-nerd-font`
-- `font-jetbrains-mono`
-- `font-inconsolata`
-- `font-source-code-pro`
+I like to configure the zshell prompt using [Spaceship Prompt](https://github.com/denysdovhan/spaceship-prompt). It states [Powerline Font](https://github.com/powerline/fonts) as a requirement, but I usually install a [Nerd Font](https://github.com/ryanoasis/nerd-fonts) using Homebrew.

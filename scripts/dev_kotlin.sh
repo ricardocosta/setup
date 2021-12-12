@@ -2,13 +2,15 @@
 
 source "${BASH_SOURCE%/*}/functions.lib"
 
-install cask oracle-jdk
+readonly KOTLIN_DEV=(
+    "oracle-jdk"
+    "kotlin"
+    "intellij-idea-ce"
+)
 
-print_start kotlin
-install kotlin
+echo "Installing Kotlin development apps..."
 
-print_start cask intellij-idea-ce
-install cask intellij-idea-ce
+install "${KOTLIN_DEV[@]}"
 
 echo "Installing Kotlin extension in VSCode"
 code --install-extension mathiasfrohlich.Kotlin
