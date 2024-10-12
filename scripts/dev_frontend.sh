@@ -3,6 +3,7 @@
 source "${BASH_SOURCE%/*}/functions.lib"
 
 readonly FRONTEND_DEV=(
+    "brave-browser"
     "firefox"
     "google-chrome"
 )
