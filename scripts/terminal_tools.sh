@@ -6,15 +6,11 @@ readonly TERMINAL_TOOLS=(
     "autojump"
     "bat"
     "diff-so-fancy"
-    "dive"
-    "entr"
     "fd"
     "fzf"
     "htop"
     "jq"
     "ncdu"
-    "the_silver_searcher"
-    "tldr"
 )
 
 echo "Installing terminal tools..."

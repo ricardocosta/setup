@@ -4,12 +4,12 @@ source "${BASH_SOURCE%/*}/functions.lib"
 
 readonly GENERAL_DEV=(
     "git"
-    "homebrew/cask/docker"
     "neovim"
     "visual-studio-code"
     "postgresql"
-    "postman"
     "tableplus"
+    "utm"
+    "zed"
 )
 
 echo "Installing general development applications..."
