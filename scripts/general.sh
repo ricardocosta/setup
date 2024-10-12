@@ -7,6 +7,7 @@ readonly GENERAL_PURPOSE=(
     "appcleaner"
     "handbrake"
     "jordanbaird-ice"
+    "microsoft-edge"
     "notion"
     "onlyoffice"
     "raycast"

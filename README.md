@@ -53,7 +53,7 @@ The `scripts` directory contains several scripts that will install or configure 
 
 ### Manual configurations
 
-- [Browser Extensions](./docs/extensions.md): Browser extensions cannot be installed automatically, so you'll have to install them manually.
+- [Browser Extensions](./docs/browser_extensions.md): Browser extensions cannot be installed automatically, so you'll have to install them manually.
 
 ### Finishing
 
