@@ -6,7 +6,6 @@ readonly GENERAL_PURPOSE=(
     "alfred"
     "appcleaner"
     "1password"
-    "iterm2"
     "marta"
     "microsoft-edge"
     "notion"
