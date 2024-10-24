@@ -11,6 +11,7 @@ readonly TERMINAL_TOOLS=(
     "htop"
     "jq"
     "ncdu"
+    "tldr"
 )
 
 echo "Installing terminal tools..."

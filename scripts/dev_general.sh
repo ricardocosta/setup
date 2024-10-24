@@ -6,9 +6,12 @@ readonly GENERAL_DEV=(
     "git"
     "neovim"
     "visual-studio-code"
-    "postgresql"
+    "postgresql@17"
+    "qlcolorcode"
+    "qlmarkdown"
     "tableplus"
     "utm"
+    "warp"
     "zed"
 )
 

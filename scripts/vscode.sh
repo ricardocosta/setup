@@ -13,7 +13,6 @@ readonly EXTENSIONS=(
     "esbenp.prettier-vscode:Prettier"
     "mohsen1.prettify-json:Prettify JSON"
     "alefragnani.project-manager:Project Manager"
-    # "team-sapling.sapling"
     # Themes & Icons
     "zhuangtongfa.Material-theme:One Dark Pro"
     "PKief.material-icon-theme:Material Icon Theme"
